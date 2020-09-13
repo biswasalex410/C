@@ -1,0 +1,1 @@
+#include<stdio.h>#include<stdlib.h>int main(){    int*ptr;    int n,i;    n=5;    ptr=(int*)malloc(n*sizeof(int));    if(ptr==NULL)    {        printf("memory not allocated.\n");        exit(0);    }    else printf("Memory Successfully allocated using malloc.\n");    return 0;}
